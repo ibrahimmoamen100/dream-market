@@ -28,10 +28,10 @@ export function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 border-b bg-blue-500 backdrop-blur supports-[backdrop-filter]:bg-blue-500 text-white">
-      <div className="container flex h-16 items-center justify-between px-4 md:px-8">
+      <div className="container flex h-20 items-center justify-between px-4 md:px-8">
         <div className="flex items-center gap-2">
           <Link to="/" className="text-xl font-bold">
-            <img src="/logo.png" alt="logo" className="w-28 h-28" />
+            <img src="/logo.png" alt="logo" className="w-36 h-36" />
           </Link>
         </div>
 
@@ -55,7 +55,7 @@ export function Navbar() {
             <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
             <Input
               placeholder={t("navigation.search")}
-              className="pl-8"
+              className="pl-8 text-black"
               value={filters.search || ""}
               onChange={(e) =>
                 setFilters({ ...filters, search: e.target.value })
@@ -65,9 +65,9 @@ export function Navbar() {
 
           <Link to="/cart">
             <Button variant="outline" size="icon" className="relative">
-              <ShoppingCart className="h-4 w-4" />
+              <ShoppingCart className="h-4 w-4 text-black" />
               {cart.length > 0 && (
-                <span className="absolute -right-2 -top-2 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-[10px] text-primary-foreground">
+                <span className="absolute -right-2 -top-2 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-[10px]  text-primary-foreground">
                   {cart.length}
                 </span>
               )}
@@ -76,7 +76,7 @@ export function Navbar() {
           <Sheet>
             <SheetTrigger asChild className=" ">
               <Button variant="outline" size="icon" className="md:hidden ">
-                <Menu className="h-4 w-4" />
+                <Menu className="h-4 w-4 text-black" />
                 <span className="sr-only">Menu</span>
               </Button>
             </SheetTrigger>

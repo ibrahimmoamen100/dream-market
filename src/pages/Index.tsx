@@ -6,7 +6,7 @@ import { ProductModal } from "@/components/ProductModal";
 import { useStore } from "@/store/useStore";
 import { Product } from "@/types/product";
 import { useTranslation } from "react-i18next";
-import { Filter } from "lucide-react";
+import { Filter, Link } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Drawer,
