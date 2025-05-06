@@ -21,12 +21,12 @@ export function Topbar() {
     <div className="bg-primary text-primary-foreground">
       <div className="container flex h-10 items-center justify-between">
         <div className="flex items-center gap-4">
-          <a href="tel:+201024911062" className="text-sm">
-            01024911062
+          <a href="tel:+201004111162" className="text-sm">
+            01004111162
           </a>
           <div className="flex items-center gap-2">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/Dream1Market"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-primary-foreground/80"
@@ -40,14 +40,6 @@ export function Topbar() {
               className="hover:text-primary-foreground/80"
             >
               <Instagram className="h-4 w-4" />
-            </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-primary-foreground/80"
-            >
-              <Twitter className="h-4 w-4" />
             </a>
           </div>
         </div>

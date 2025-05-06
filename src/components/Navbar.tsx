@@ -16,7 +16,6 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import i18next from "i18next";
-
 export function Navbar() {
   const cart = useStore((state) => state.cart);
   const setFilters = useStore((state) => state.setFilters);
@@ -28,11 +27,11 @@ export function Navbar() {
   };
 
   return (
-    <nav className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <nav className="sticky top-0 z-50 border-b bg-blue-500 backdrop-blur supports-[backdrop-filter]:bg-blue-500 text-white">
       <div className="container flex h-16 items-center justify-between px-4 md:px-8">
         <div className="flex items-center gap-2">
           <Link to="/" className="text-xl font-bold">
-            {t("navigation.store")}
+            <img src="/logo.png" alt="logo" className="w-28 h-28" />
           </Link>
         </div>
 

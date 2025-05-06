@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Navbar } from "@/components/Navbar";
@@ -16,27 +15,20 @@ export default function Locations() {
   const locations = [
     {
       id: 1,
-      name: "Main Store",
-      address: "123 Main Street, City Center",
-      phone: "+1 234 567 890",
-      hours: "9:00 AM - 9:00 PM",
-      coordinates: { lat: 30.0444, lng: 31.2357 }, // Cairo
+      name: "الفرع الأول",
+      address: "ش. مؤسسة الزكاة بجوار برج الفاروق، الشرفا، المرج، القاهرة، مصر",
+      phone: "01155652162",
+      hours: "9:00 ص - 11:00 م",
+      coordinates: { lat: 30.2101, lng: 31.3676 }, // تقريبية للمرج
     },
     {
       id: 2,
-      name: "North Branch",
-      address: "456 North Avenue, North District",
-      phone: "+1 234 567 891",
-      hours: "10:00 AM - 8:00 PM",
-      coordinates: { lat: 31.2001, lng: 29.9187 }, // Alexandria
-    },
-    {
-      id: 3,
-      name: "East Side Store",
-      address: "789 East Boulevard, Eastern Area",
-      phone: "+1 234 567 892",
-      hours: "10:00 AM - 10:00 PM",
-      coordinates: { lat: 25.6872, lng: 32.6396 }, // Luxor
+      name: "الفرع الثاني",
+      address:
+        "ش. مؤسسة الزكاة بجوار مدرسة الحسين الخاصة، الشرفا، المرج، القاهرة، مصر",
+      phone: "01155652162",
+      hours: "9:00 ص - 11:00 م",
+      coordinates: { lat: 30.2135, lng: 31.3699 }, // تقريبية للمرج
     },
   ];
 
@@ -44,17 +36,17 @@ export default function Locations() {
     <div className="min-h-screen flex flex-col">
       <Topbar />
       <Navbar />
-      
+
       <div className="container py-8">
-        <h1 className="text-3xl font-bold mb-6">Our Locations</h1>
-        
+        <h1 className="text-3xl font-bold mb-6">موقعنا</h1>
+
         <div className="grid md:grid-cols-2 gap-8">
           <div>
             <p className="text-muted-foreground mb-6">
-              Visit one of our store locations to experience our products in person. 
-              Our friendly staff is ready to assist you with all your needs.
+              قم بزيارة أحد فروعنا لتجربة منتجاتنا بنفسك. فريق عملنا الودود جاهز
+              لمساعدتك في جميع احتياجاتك
             </p>
-            
+
             <div className="space-y-4">
               {locations.map((location) => (
                 <Card key={location.id}>
@@ -63,10 +55,13 @@ export default function Locations() {
                       <Building className="h-5 w-5 text-primary mt-1" />
                       <div>
                         <h3 className="font-medium text-lg">{location.name}</h3>
-                        <p className="text-muted-foreground">{location.address}</p>
+                        <p className="text-muted-foreground">
+                          {location.address}
+                        </p>
                         <p className="mt-1">{location.phone}</p>
                         <p className="text-sm mt-1">
-                          <span className="font-semibold">Hours:</span> {location.hours}
+                          <span className="font-semibold">Hours:</span>{" "}
+                          {location.hours}
                         </p>
                       </div>
                     </div>
@@ -75,41 +70,24 @@ export default function Locations() {
               ))}
             </div>
           </div>
-          
+
           <div className="h-[400px] md:h-auto">
-            {!mapApiKey ? (
-              <div className="border rounded-lg p-6 h-full flex flex-col items-center justify-center text-center">
-                <Pin className="h-12 w-12 text-muted-foreground mb-4" />
-                <h3 className="text-lg font-medium mb-2">Map Preview</h3>
-                <p className="text-muted-foreground mb-4">
-                  To display an interactive map of our store locations, please enter your Mapbox API key.
-                </p>
-                <div className="w-full max-w-md">
-                  <input
-                    type="text"
-                    placeholder="Enter Mapbox public token"
-                    className="w-full p-2 border rounded"
-                    value={mapApiKey}
-                    onChange={(e) => setMapApiKey(e.target.value)}
-                  />
-                  <p className="text-xs text-muted-foreground mt-2">
-                    You can get a free Mapbox API key at mapbox.com
-                  </p>
-                </div>
-              </div>
-            ) : (
-              <div className="border rounded-lg h-full">
-                <iframe 
-                  src={`https://api.mapbox.com/styles/v1/mapbox/streets-v11.html?title=true&access_token=${mapApiKey}#center=31.5,30.5&zoom=6`}
-                  title="Store Locations"
-                  className="w-full h-full rounded-lg"
-                />
-              </div>
-            )}
+            <div className="border rounded-lg h-full overflow-hidden">
+              <iframe
+                title="Dream 1 Market Location"
+                src="https://www.google.com/maps?q=30.141071463482,31.347328&z=16&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0, minHeight: 400 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
-      
+
       <Footer />
     </div>
   );

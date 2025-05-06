@@ -40,6 +40,7 @@ import {
 } from "@/components/ui/carousel";
 import { ProductFilters } from "@/components/ProductFilters";
 import { ProductSearch } from "@/components/ProductSearch";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
@@ -251,7 +252,7 @@ const Index = () => {
               <CarouselItem>
                 <div className="relative h-48 sm:h-64 md:h-80 lg:h-96 rounded-xl overflow-hidden">
                   <img
-                    src="https://images.unsplash.com/photo-1618517048289-4646902edaf5?q=80&w=1200"
+                    src="https://scontent.fcai20-3.fna.fbcdn.net/v/t39.30808-6/482225333_614824224854919_8332725618033071556_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=T9D8Of-_skcQ7kNvwFg5elA&_nc_oc=Adn5l87cRBaXwCD7OPIuVqQrfD7fbwswEiODJanPvdoikf7yi0YYWlM5ku4ZiX_zkj0&_nc_zt=23&_nc_ht=scontent.fcai20-3.fna&_nc_gid=8NaEIUAf9flFEgvveAO1OA&oh=00_AfLd8RbT_G2g-wKaSEguaeSRgbTrkzI1iwkWbhyB-dNm8g&oe=681FB619"
                     alt="Hero Image 1"
                     className="w-full h-full object-cover"
                   />
@@ -273,7 +274,7 @@ const Index = () => {
               <CarouselItem>
                 <div className="relative h-48 sm:h-64 md:h-80 lg:h-96 rounded-xl overflow-hidden">
                   <img
-                    src="https://images.unsplash.com/photo-1589782056977-ac728fcaba7b?q=80&w=1200"
+                    src="https://scontent.fcai20-5.fna.fbcdn.net/v/t39.30808-6/492007927_652148987789109_3587969974607605344_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ZeZuze1DmooQ7kNvwG1g7BI&_nc_oc=AdnE-xLzEw7AAnJWKcNrXaKSZeZiYunx2ACyOz0Pa8W02a5zBkDee8gXytcpSuhhvmE&_nc_zt=23&_nc_ht=scontent.fcai20-5.fna&_nc_gid=6DuTClggd9j71CWXJ-BwCw&oh=00_AfKv6UzZFmOtEHC0iWgpMavVLW937Yaud1sfQVN2-Z3zLg&oe=681FCF26"
                     alt="Hero Image 2"
                     className="w-full h-full object-cover"
                   />
@@ -295,7 +296,7 @@ const Index = () => {
               <CarouselItem>
                 <div className="relative h-48 sm:h-64 md:h-80 lg:h-96 rounded-xl overflow-hidden">
                   <img
-                    src="https://images.unsplash.com/photo-1598971861713-54ad16a7e72e?q=80&w=1200"
+                    src="https://scontent.fcai20-5.fna.fbcdn.net/v/t39.30808-6/492033452_652148944455780_5398985310117504831_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=dn2LNymmNzwQ7kNvwFgttvP&_nc_oc=AdlmeOePoAu9Lw3ymtYLdfbQzeKhi9XHMutR0Ypx9VNz4SMop4JM0m1Z9XZ7tMjC5N0&_nc_zt=23&_nc_ht=scontent.fcai20-5.fna&_nc_gid=6eAD1J8l3Zbbzd3xxEH99w&oh=00_AfLPBro4DhfX6bsgmrzor3tNUT0MtZG72-vANAJKHbscqg&oe=681FCE42"
                     alt="Hero Image 3"
                     className="w-full h-full object-cover"
                   />
@@ -455,96 +456,13 @@ const Index = () => {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="bg-muted py-8 md:py-12">
-        <div className="container px-4 md:px-8">
-          <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
-            <div>
-              <h3 className="font-bold text-lg mb-4">{t("footer.aboutUs")}</h3>
-              <p className="text-muted-foreground mb-4">
-                {t("footer.aboutDescription")}
-              </p>
-            </div>
-
-            <div>
-              <h3 className="font-bold text-lg mb-4">
-                {t("footer.quickLinks")}
-              </h3>
-              <ul className="space-y-2">
-                <li>
-                  <Button variant="link" className="p-0 h-auto">
-                    {t("footer.home")}
-                  </Button>
-                </li>
-                <li>
-                  <Button variant="link" className="p-0 h-auto">
-                    {t("footer.products")}
-                  </Button>
-                </li>
-                <li>
-                  <Button variant="link" className="p-0 h-auto">
-                    {t("footer.specialOffers")}
-                  </Button>
-                </li>
-                <li>
-                  <Button variant="link" className="p-0 h-auto">
-                    {t("footer.about")}
-                  </Button>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-bold text-lg mb-4">
-                {t("footer.categories")}
-              </h3>
-              <ul className="space-y-2">
-                <li>
-                  <Button variant="link" className="p-0 h-auto">
-                    {t("footer.category1")}
-                  </Button>
-                </li>
-                <li>
-                  <Button variant="link" className="p-0 h-auto">
-                    {t("footer.category2")}
-                  </Button>
-                </li>
-                <li>
-                  <Button variant="link" className="p-0 h-auto">
-                    {t("footer.category3")}
-                  </Button>
-                </li>
-                <li>
-                  <Button variant="link" className="p-0 h-auto">
-                    {t("footer.category4")}
-                  </Button>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-bold text-lg mb-4">
-                {t("footer.contactUs")}
-              </h3>
-              <ul className="space-y-2 text-muted-foreground">
-                <li>{t("footer.address")}</li>
-                <li>+1 234 567 890</li>
-                <li>info@example.com</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-            <p>© 2025 {t("footer.copyright")}</p>
-          </div>
-        </div>
-      </footer>
-
       <ProductModal
         product={selectedProduct}
         open={modalOpen}
         onOpenChange={setModalOpen}
       />
+
+      <Footer />
     </div>
   );
 };
