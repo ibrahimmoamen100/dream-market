@@ -1,0 +1,124 @@
+
+{
+  "navigation": {
+    "store": "Store",
+    "admin": "Admin",
+    "cart": "Cart",
+    "search": "Search products...",
+    "products": "Products",
+    "about": "About Us",
+    "locations": "Locations",
+    "careers": "Careers"
+  },
+  "filters": {
+    "sortBy": "Sort by",
+    "category": "Category",
+    "brand": "Brand",
+    "color": "Color",
+    "size": "Size",
+    "allCategories": "All Categories",
+    "allBrands": "All Brands",
+    "allColors": "All Colors",
+    "allSizes": "All Sizes",
+    "title": "Filters"
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "viewDetails": "View Details",
+    "price": "Price"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "total": "Total",
+    "orderViaWhatsApp": "Order via WhatsApp",
+    "deliveryInfo": "Delivery Information",
+    "fullName": "Full Name",
+    "phoneNumber": "Phone Number",
+    "address": "Delivery Address",
+    "city": "City",
+    "notes": "Additional Notes",
+    "completeOrder": "Complete Order",
+    "fieldRequired": "This field is required"
+  },
+  "common": {
+    "apply": "Apply",
+    "cancel": "Cancel"
+  },
+  "products": {
+    "title": "Products",
+    "noResults": "No products found matching your criteria",
+    "specialOffers": "Special Offers",
+    "allProducts": "All Products"
+  },
+  "hero": {
+    "title1": "Welcome to Our Store",
+    "description1": "Discover our new collections and exclusive offers",
+    "title2": "New Season Arrivals",
+    "description2": "Check out the latest products in our catalog",
+    "title3": "Special Discount Week",
+    "description3": "Save up to 50% on selected items this week only",
+    "shopNow": "Shop Now"
+  },
+  "specialOffers": {
+    "title": "Special Offers",
+    "viewAll": "View All"
+  },
+  "about": {
+    "title": "About Us",
+    "readMore": "Read More",
+    "article1": {
+      "title": "Our Story",
+      "content": "Founded in 2010, our company has grown from a small local shop to an international brand trusted by customers worldwide."
+    },
+    "article2": {
+      "title": "Quality Commitment",
+      "content": "We are dedicated to providing the highest quality products sourced from the best materials and manufacturers around the globe."
+    },
+    "article3": {
+      "title": "Customer Service",
+      "content": "Our customer satisfaction is our top priority. We offer 24/7 support and hassle-free returns to ensure you're always happy with your purchase."
+    }
+  },
+  "locations": {
+    "title": "Our Locations",
+    "description": "Visit one of our store locations to experience our products in person. Our friendly staff is ready to assist you with all your needs.",
+    "mainStore": "Main Store",
+    "mapPreview": "Map Preview",
+    "enterMapboxKey": "To display an interactive map of our store locations, please enter your Mapbox API key.",
+    "getFreeKey": "You can get a free Mapbox API key at mapbox.com"
+  },
+  "careers": {
+    "title": "Join Our Team",
+    "description": "We're always looking for talented individuals to grow with us. Explore our current openings below.",
+    "whyJoinUs": "Why Work With Us",
+    "openPositions": "Open Positions",
+    "growth": "Growth Opportunities",
+    "benefits": "Competitive Benefits",
+    "inclusion": "Inclusive Workplace",
+    "workLife": "Work-Life Balance",
+    "apply": "Apply Now",
+    "applyPosition": "Apply for this Position",
+    "responsibilities": "Responsibilities",
+    "requirements": "Requirements"
+  },
+  "footer": {
+    "aboutUs": "About Us",
+    "aboutDescription": "We are dedicated to providing high-quality products with excellent customer service. Our mission is to make shopping a pleasant experience for all customers.",
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "products": "Products",
+    "specialOffers": "Special Offers",
+    "about": "About Us",
+    "careers": "Careers",
+    "locations": "Locations",
+    "categories": "Categories",
+    "category1": "Clothing",
+    "category2": "Accessories",
+    "category3": "Electronics",
+    "category4": "Home Goods",
+    "contactUs": "Contact Us",
+    "address": "123 Main Street, City, Country",
+    "copyright": "All Rights Reserved"
+  }
+}

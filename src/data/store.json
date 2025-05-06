@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": "11122e32-3a45-429b-90be-b7f788427ecf",
+      "name": "ghjhj",
+      "brand": "ghjghj",
+      "price": 89,
+      "category": "ghjgh",
+      "color": "#0000FF",
+      "size": "XXL",
+      "images": ["cvbcvfgh"],
+      "description": "cvbgjfgj",
+      "specialOffer": true,
+      "discountPercentage": 10,
+      "offerEndsAt": "2025-05-07T21:00:00.000Z"
+    },
+    {
+      "id": "3f22cfe5-8a25-4023-9a82-55dd1dfb9d7e",
+      "name": "جبن شيدر",
+      "brand": "دومتي ",
+      "price": 69,
+      "category": "جبن",
+      "color": "#FFFF00",
+      "size": "XL",
+      "images": [
+        "https://res.cloudinary.com/dbiydbxwa/image/upload/v1737414089/nc1ageo0vjf0abglhf1c.jpg",
+        "https://res.cloudinary.com/dbiydbxwa/image/upload/v1731973172/cwhbw2ga4zy6bqske4om.jpg"
+      ],
+      "description": "جبن دومتي كامله الدسم لبن طبيعي 100%",
+      "specialOffer": true,
+      "discountPercentage": 50,
+      "offerEndsAt": "2025-05-07T21:00:00.000Z"
+    },
+    {
+      "id": "950f12b2-92d6-46de-87e7-636ec18b6d38",
+      "name": "ترنج اديدز",
+      "brand": "Adidas",
+      "price": 2400,
+      "category": "ملابس",
+      "color": "#FFFFFF,#000000",
+      "size": "XL,XXL",
+      "images": [
+        "https://res.cloudinary.com/dbiydbxwa/image/upload/v1731973041/z0h076fsclkclzo9orio.jpg"
+      ],
+      "description": "ترنج ممتاز",
+      "specialOffer": false
+    }
+  ]
+}
