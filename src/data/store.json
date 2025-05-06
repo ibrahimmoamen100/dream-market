@@ -1,49 +1,92 @@
 {
   "products": [
     {
-      "id": "11122e32-3a45-429b-90be-b7f788427ecf",
-      "name": "ghjhj",
-      "brand": "ghjghj",
-      "price": 89,
-      "category": "ghjgh",
-      "color": "#0000FF",
-      "size": "XXL",
-      "images": ["cvbcvfgh"],
-      "description": "cvbgjfgj",
+      "id": "8703459b-6a05-44a3-8120-51ec3399e5df",
+      "name": "بيض",
+      "brand": "dream",
+      "price": 125,
+      "category": "منتجات غذائيه",
+      "color": "#FFFFFF",
+      "size": "",
+      "images": [
+        "https://scontent.fcai20-6.fna.fbcdn.net/v/t39.30808-6/494797121_658561977147810_1947452254653256800_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=nETj9Cy4pXYQ7kNvwFltAlw&_nc_oc=AdlW_4coUB_fyf0U3mqXssQfdJUw-7TyU7PJM-X8G0seZ19VMecTHx8T-qfUrzsjY5M&_nc_zt=23&_nc_ht=scontent.fcai20-6.fna&_nc_gid=kSu0l5xebfP-Ya7C2Xqrjg&oh=00_AfILEN-EnfLfVnO7tS8u00R2tWha6r3qo2gy_4CEGXGWGg&oe=681FAE3A"
+      ],
+      "description": "طبق بيض ابيض نباتي 30 بيضه",
       "specialOffer": true,
-      "discountPercentage": 10,
-      "offerEndsAt": "2025-05-07T21:00:00.000Z"
+      "discountPercentage": 5,
+      "offerEndsAt": "2025-05-06T21:00:00.000Z"
     },
     {
-      "id": "3f22cfe5-8a25-4023-9a82-55dd1dfb9d7e",
-      "name": "جبن شيدر",
-      "brand": "دومتي ",
-      "price": 69,
-      "category": "جبن",
-      "color": "#FFFF00",
-      "size": "XL",
+      "id": "b57ac5dd-8eb4-4fe4-a02d-76266c409ab6",
+      "name": "تونه سن شاين مفتته ",
+      "brand": "sunshine",
+      "price": 25,
+      "category": "تونه",
+      "color": "#008000",
+      "size": "",
       "images": [
-        "https://res.cloudinary.com/dbiydbxwa/image/upload/v1737414089/nc1ageo0vjf0abglhf1c.jpg",
-        "https://res.cloudinary.com/dbiydbxwa/image/upload/v1731973172/cwhbw2ga4zy6bqske4om.jpg"
+        "https://scontent.fcai20-3.fna.fbcdn.net/v/t39.30808-6/491263156_646625731674768_1704187492149296738_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=TVtt1fgkWs8Q7kNvwGWLRqq&_nc_oc=Adnp5TKIBq8MWBM0leunsLOjbdJU7lv8vroPSpaKRlXgWr5Qj9IJSB_6qG5feri1_bQ&_nc_zt=23&_nc_ht=scontent.fcai20-3.fna&_nc_gid=Fl47o1wtaDegdUIMG8bDPw&oh=00_AfK2RnJan_PIkyyAK-ABCGuaYuxYUhiAUpvsWuXwvBoXwg&oe=681FD4F6"
       ],
-      "description": "جبن دومتي كامله الدسم لبن طبيعي 100%",
-      "specialOffer": true,
-      "discountPercentage": 50,
-      "offerEndsAt": "2025-05-07T21:00:00.000Z"
-    },
-    {
-      "id": "950f12b2-92d6-46de-87e7-636ec18b6d38",
-      "name": "ترنج اديدز",
-      "brand": "Adidas",
-      "price": 2400,
-      "category": "ملابس",
-      "color": "#FFFFFF,#000000",
-      "size": "XL,XXL",
-      "images": [
-        "https://res.cloudinary.com/dbiydbxwa/image/upload/v1731973041/z0h076fsclkclzo9orio.jpg"
-      ],
-      "description": "ترنج ممتاز",
+      "description": "تونه مفتته 150ج ",
       "specialOffer": false
+    },
+    {
+      "id": "4357216e-0633-40fa-bc98-5c8dbde76542",
+      "name": "تونه عافيه",
+      "brand": "عافية",
+      "price": 25,
+      "category": "تونه",
+      "color": "#008000",
+      "size": "",
+      "images": [
+        "https://scontent.fcai20-6.fna.fbcdn.net/v/t39.30808-6/490553527_644936795176995_8573719088990056388_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=oPdqlf7yhMAQ7kNvwHNISBQ&_nc_oc=AdlApi1NpYVmqxRPfcCgrUN7hqGcOlLBJum4Trlksojz8tix4ajLXV8DGKcpVf8pRL8&_nc_zt=23&_nc_ht=scontent.fcai20-6.fna&_nc_gid=9SOveNzsGK6yNpNl_12uVQ&oh=00_AfJkiF6PCn4YmLCR_CbNW3wMjcYc6VwHQPJpXJBzKapQ6w&oe=681FB18C"
+      ],
+      "description": "تونه عافيه 140جرام مفتته",
+      "specialOffer": false
+    },
+    {
+      "id": "e648f4b4-d092-4a97-a1f7-a6e56a7b439b",
+      "name": "رنجه ",
+      "brand": "ابو السيد",
+      "price": 122,
+      "category": "منتجات غذائيه",
+      "color": "",
+      "size": "",
+      "images": [
+        "https://scontent.fcai20-6.fna.fbcdn.net/v/t39.30808-6/487443159_630815019922506_4375301068682273543_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pGRMTjtiZokQ7kNvwFBRqru&_nc_oc=AdkKK9JXYDvj8eO_DLfgrOHhLruBNuYqMRKClcUIcn5OCqLxbHQDp0wzGuFdhZBCjCU&_nc_zt=23&_nc_ht=scontent.fcai20-6.fna&_nc_gid=acS0tQvPlx4jwIzJv4IVzg&oh=00_AfJjqsd7Vhbrf6VHMamGiU8MdE8pm7wRNesp9KZ05VjCHw&oe=681FD2F9"
+      ],
+      "description": "رنجه ابو السيد وسط الوزن",
+      "specialOffer": false
+    },
+    {
+      "id": "0ef745d5-c960-4328-a002-62293d399d40",
+      "name": "كفته بقري",
+      "brand": "التوابل الشرقيه",
+      "price": 68,
+      "category": "مجمدات",
+      "color": "",
+      "size": "",
+      "images": [
+        "https://scontent.fcai20-1.fna.fbcdn.net/v/t39.30808-6/486689466_628418920162116_60069909461478918_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mNWJ6hq_8ccQ7kNvwFZ3Y2H&_nc_oc=AdnFPvIEASW0nb9xKU9tEVqy_byM6cpUARflw0-MOv2uxa9ETIC-WuCUd_gCOLEYUuI&_nc_zt=23&_nc_ht=scontent.fcai20-1.fna&_nc_gid=5-bXYHJpTt1ksexe4FsqOw&oh=00_AfJAnCgWe36E85v_Bg1gXKfAZ6hFMMU_xBj-ZJ9an73Gnw&oe=681FDF74"
+      ],
+      "description": "كفته بقري مجمده \n900 جرام",
+      "specialOffer": false
+    },
+    {
+      "id": "6d178af9-a972-4604-b4c4-397787b0692a",
+      "name": "بانيه حار ",
+      "brand": "التوابل الشرقيه",
+      "price": 130,
+      "category": "مجمدات",
+      "color": "",
+      "size": "",
+      "images": [
+        "https://scontent.fcai20-1.fna.fbcdn.net/v/t39.30808-6/486677044_628418893495452_5119964729130486330_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=UgXgoiwBByoQ7kNvwEfP-Jn&_nc_oc=Adlqd1Qv4PZBPhzPHflI_jPGSM7s8HI6U7YB8KXvFcgVcMzVFfmnN_CVAZ2afjFY8nk&_nc_zt=23&_nc_ht=scontent.fcai20-1.fna&_nc_gid=yxKFtSXqb850BAhsH456ng&oh=00_AfIxC1muGb2a2NMOl35n389Z70fKTUGlFI458VLbI7C1bA&oe=681FDB8F"
+      ],
+      "description": "كوكي توابل شرقيه بانيه حار 1 كيلو",
+      "specialOffer": true,
+      "discountPercentage": 11,
+      "offerEndsAt": "2025-05-07T21:00:00.000Z"
     }
   ]
 }
