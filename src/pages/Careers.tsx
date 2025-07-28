@@ -110,7 +110,7 @@ export default function Careers() {
                   الآتية:
                 </p>
                 <p className="text-lg text-muted-foreground mb-4">
-                  Dream 1 Market is hiring for the following positions:
+                  Hema is hiring for the following positions:
                 </p>
                 <p className="text-md text-blue-700 font-semibold">
                   انضم إلينا الآن!
@@ -120,7 +120,7 @@ export default function Careers() {
               <div className="flex-1 flex justify-center mt-8 lg:mt-0">
                 <img
                   src="/images/hiring-hero.jpg"
-                  alt="Dream 1 Market Hiring"
+                  alt="Hema Hiring"
                   className="max-w-xs w-full rounded-xl shadow-lg border-4 border-yellow-400"
                   style={{ objectFit: "cover" }}
                 />

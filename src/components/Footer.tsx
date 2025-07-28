@@ -23,11 +23,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About Section */}
           <div>
-            <img
-              src="/images/logo2.jpg"
-              alt="logo"
-              className="mb-4 w-32 h-auto"
-            />
+            <div className="mb-4">
+              <h2 className="text-2xl font-bold text-primary">Hema</h2>
+            </div>
             <h3 className="font-bold text-lg mb-4">{t("footer.aboutUs")}</h3>
             <p className="text-muted-foreground">
               {t("footer.aboutDescription")}
