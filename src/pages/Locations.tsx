@@ -74,7 +74,7 @@ export default function Locations() {
           <div className="h-[400px] md:h-auto">
             <div className="border rounded-lg h-full overflow-hidden">
               <iframe
-                title="Dream 1 Market Location"
+                title="Hema Location"
                 src="https://www.google.com/maps?q=30.141071463482,31.347328&z=16&output=embed"
                 width="100%"
                 height="100%"
